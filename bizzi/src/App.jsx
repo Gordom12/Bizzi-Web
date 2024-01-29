@@ -1,0 +1,16 @@
+import './global.css'
+
+function App() {
+ return (
+
+
+  <h1>oa</h1>
+
+
+ )
+
+ 
+  
+}
+
+export default App
