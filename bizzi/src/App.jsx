@@ -1,12 +1,11 @@
+import { Login } from './componets/Login/Login'
 import './global.css'
 
 function App() {
  return (
-
-
-  <h1>oa</h1>
-
-
+    <>
+       <Login/>
+    </>
  )
 
  

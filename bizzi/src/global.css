@@ -1,11 +1,32 @@
-:root{
-    --white:#fff;
+:root {
+  --white: #fff;
 
-    --gray-100:#ECECEC;
-    --gray-600:#545454;
-    
-    --orange-100:#FDF2E0;
-    --orange-400:#EDA62D;
-    
+  --gray-100: #ececec;
+  --gray-600: #545454;
 
+  --black: #100f0f;
+
+  --orange-100: #fdf2e0;
+  --orange-400: #eda62d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--orange-100);
+  color: var(--gray-100);
+  -webkit-font-soothing: antilised;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
 }

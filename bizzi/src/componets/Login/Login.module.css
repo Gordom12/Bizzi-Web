@@ -1,0 +1,11 @@
+.loginBox {
+  background: var(--white);
+  margin-top: 16.25rem;
+  width: 45rem;
+  height: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  border: 1px solid var(--black);
+}
+faz commit
